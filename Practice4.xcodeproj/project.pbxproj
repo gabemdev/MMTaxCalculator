@@ -412,6 +412,7 @@
 				6D2A942A1A7ACB2D00B88FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D2A942B1A7ACB2D00B88FEE /* Build configuration list for PBXNativeTarget "Practice4Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				6D2A942D1A7ACB2D00B88FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

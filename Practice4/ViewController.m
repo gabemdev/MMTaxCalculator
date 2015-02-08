@@ -55,7 +55,7 @@
         NSString *result = [NSString stringWithFormat:@"%.2f", _price * _nyTax];
         _resultLabel.text = result;
     } else {
-        NSString *result = [NSString stringWithFormat:@"%.2f", _price * _nyTax];
+        NSString *result = [NSString stringWithFormat:@"%.2f", _price * _txTax];
         _resultLabel.text = result;
     }
 }

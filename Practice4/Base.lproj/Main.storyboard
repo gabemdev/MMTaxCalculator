@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C94b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -16,10 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purple_bg" translatesAutoresizingMaskIntoConstraints="NO" id="2W6-6J-do1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orange_bg" translatesAutoresizingMaskIntoConstraints="NO" id="2W6-6J-do1">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Price" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Asy-JS-wOt">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Price" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Asy-JS-wOt">
                                 <rect key="frame" x="175" y="285" width="250" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.87843137250000003" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -29,7 +29,7 @@
                                     </constraint>
                                     <constraint firstAttribute="width" constant="250" id="wcc-6t-eqY"/>
                                 </constraints>
-                                <color key="textColor" red="0.87843137250000003" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <variation key="default">
@@ -45,7 +45,7 @@
                                     </mask>
                                 </variation>
                             </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VZW-oS-jF5">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VZW-oS-jF5">
                                 <rect key="frame" x="175" y="323" width="250" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Sug-GI-XVl"/>
@@ -71,7 +71,7 @@
                                     </mask>
                                 </variation>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgT-Kb-bKR">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgT-Kb-bKR">
                                 <rect key="frame" x="250" y="376" width="100" height="30"/>
                                 <color key="backgroundColor" red="0.87843137250000003" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -101,7 +101,7 @@
                                     <action selector="onCalculateButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NzR-vB-Sg4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozb-Ic-xah">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozb-Ic-xah">
                                 <rect key="frame" x="175" y="452" width="250" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="0LI-MB-pZ7"/>
@@ -153,7 +153,6 @@
                                 <exclude reference="63N-lG-7Ap"/>
                                 <exclude reference="ETu-vU-NRo"/>
                                 <exclude reference="eF3-E9-Kf8"/>
-                                <exclude reference="1fe-Py-2fi"/>
                                 <exclude reference="bDb-F4-s97"/>
                                 <exclude reference="rj4-p3-uxp"/>
                                 <exclude reference="HKJ-qG-Ldm"/>
@@ -161,6 +160,7 @@
                                 <exclude reference="HPd-Hq-z43"/>
                                 <exclude reference="W8Q-Je-gDv"/>
                                 <exclude reference="bJ5-f1-hBE"/>
+                                <exclude reference="1fe-Py-2fi"/>
                                 <exclude reference="h4X-AT-WSe"/>
                             </mask>
                         </variation>
@@ -172,7 +172,6 @@
                                 <include reference="63N-lG-7Ap"/>
                                 <include reference="ETu-vU-NRo"/>
                                 <include reference="eF3-E9-Kf8"/>
-                                <include reference="1fe-Py-2fi"/>
                                 <include reference="bDb-F4-s97"/>
                                 <include reference="rj4-p3-uxp"/>
                                 <include reference="HKJ-qG-Ldm"/>
@@ -180,6 +179,7 @@
                                 <include reference="HPd-Hq-z43"/>
                                 <include reference="W8Q-Je-gDv"/>
                                 <include reference="bJ5-f1-hBE"/>
+                                <include reference="1fe-Py-2fi"/>
                                 <include reference="h4X-AT-WSe"/>
                             </mask>
                         </variation>
@@ -195,6 +195,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="purple_bg" width="160" height="284"/>
+        <image name="orange_bg" width="160" height="284"/>
     </resources>
 </document>
